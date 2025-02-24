@@ -1,11 +1,16 @@
-### Media Metadata Project
-
+# Media Metadata Project
 
 ## Docker Compose
 
-    docker compose --file docker-compose.yml up --build -d
+To build and run the project using Docker Compose, use the following commands:
 
-    docker compose down -v    # Remove existing volume
+```sh
+docker compose --file docker-compose.yml up --build -d
+```
+
+```sh
+docker compose down -v    # Remove existing volume
+```
 
 # Use cases
     * Translate captions for video
